@@ -1,6 +1,6 @@
-@import "./_reset.scss";
-@import "./_variables.scss";
-@import "./_mixins.scss";
+@use "./reset";
+@use "./variables" as *;
+@use "./mixins" as *;
 
 body {
   font-family: $font-primary;

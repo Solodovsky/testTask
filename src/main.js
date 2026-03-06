@@ -11,42 +11,42 @@ const navLinks = [
 const products = [
   {
     id: 1,
-    image: "/public/images/1.png",
+    image: "/images/1.png",
     title: "Стальной канат для лифта GRS 9X21F(9Х17)-IWRC 1570",
     stock: "В наличии 50 м.",
     inStock: true,
   },
   {
     id: 2,
-    image: "/public/images/2.png",
+    image: "/images/2.png",
     title: "Стальной канат для лифта GRS 8X19S-NFC 1570",
     stock: "В наличии 50 м.",
     inStock: true,
   },
   {
     id: 3,
-    image: "/public/images/3.png",
+    image: "/images/3.png",
     title: "Стальной канат для лифта GRS 8X19W-CWC 1570",
     stock: "В наличии 50 м.",
     inStock: true,
   },
   {
     id: 4,
-    image: "/public/images/4.png",
+    image: "/images/4.png",
     title: "Плоский тяговый ремень для лифта GRS AAA717X1 (12 кордов)",
     stock: "Под заказ",
     inStock: false,
   },
   {
     id: 5,
-    image: "/public/images/5.png",
+    image: "/images/5.png",
     title: "Стальной канат для лифта GRS 9X21F(9Х17)-IWRC 1570",
     stock: "В наличии 50 м.",
     inStock: true,
   },
   {
     id: 6,
-    image: "/public/images/6.png",
+    image: "/images/6.png",
     title: "Купить плоский тяговый ремень для лифта GRS AAA717AJ1(8 кордов)",
     stock: "В наличии 50 м.",
     inStock: true,
@@ -101,8 +101,8 @@ const createProductCard = (product) => `
             class="product-card__icon"
             src="${
               product.inStock
-                ? "/public/icons/completed.svg"
-                : "/public/icons/uncompleted.svg"
+                ? "/icons/completed.svg"
+                : "/icons/uncompleted.svg"
             }"
             alt="${product.inStock ? "В наличии" : "Под заказ"}"
           />
