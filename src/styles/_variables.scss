@@ -1,0 +1,27 @@
+// Colors
+$bg-color: #ffffff;
+$text-color: #272a33;
+$border-color: #e0e6ed;
+
+// Fonts
+$font-primary:
+  "Open Sans",
+  "Roboto",
+  system-ui,
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  sans-serif;
+$font-secondary:
+  "Roboto",
+  "Open Sans",
+  system-ui,
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  sans-serif;
+
+// Breakpoints
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1160px;
+$breakpoint-desktop-large: 1440px;

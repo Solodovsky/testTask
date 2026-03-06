@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpartsPro</title>
+  </head>
+  <body>
+    <div id="app" class="container">
+      <header class="header">
+        <a href="/" class="header__logo">
+          <img src="/public/icons/logo.svg" alt="SpartsPro" />
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list" id="header-nav-list"></ul>
+        </nav>
+
+        <button
+          class="header__burger"
+          id="burger-button"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+        >
+          <img src="/public/icons/burger.svg" alt="" />
+        </button>
+
+        <div
+          class="header__burger-menu"
+          id="burger-menu"
+          aria-hidden="true"
+        >
+          <div class="header__burger-menu-top">
+            <a href="/" class="header__burger-menu-logo">
+              <img src="/public/icons/logo.svg" alt="SpartsPro" />
+            </a>
+            <button
+              class="header__burger-menu-close"
+              id="burger-close"
+              type="button"
+              aria-label="Закрыть меню"
+            >
+              <img src="/public/icons/closeBurger.svg" alt="" />
+            </button>
+          </div>
+          <ul class="header__burger-menu-list" id="burger-menu-list"></ul>
+        </div>
+      </header>
+      <main>
+        <section class="catalog">
+          <h1 class="catalog__title">Рекомендуемое оборудование</h1>
+          <div class="catalog__list" id="catalog-list"></div>
+          <a href="/Catalog" class="details-link catalog__link"
+            >Перейти в каталог</a
+          >
+        </section>
+
+        <section class="about">
+          <h2 class="about__title">О компании</h2>
+          <div class="about__info">
+            <div class="about__images">
+              <img
+                class="about__image about__image--main"
+                src="/public/images/about1.png"
+                alt="О компании"
+              />
+              <img
+                class="about__image about__image--second"
+                src="/public/images/about2.png"
+                alt="О компании"
+              />
+              <img
+                class="about__image about__image--third"
+                src="/public/images/about3.png"
+                alt="О компании"
+              />
+            </div>
+            <div class="about__content">
+              <h3 class="about__subtitle">
+                Компания &laquo;SPARTSPRO&raquo; специализируется на поставках
+                лифтового оборудования, комплектующих и запчастей для лифтов и
+                эскалаторов ведущих мировых и российских производителей.
+              </h3>
+              <ul class="about__description-list">
+                <li class="about__description-item">
+                  <img
+                    class="about__description-icon"
+                    src="/public/icons/uncompleted.svg"
+                    alt="Под заказ"
+                  />
+                  <p class="about__description-text">
+                    Гарантия качества &ndash; работаем только с проверенными
+                    производителями.
+                  </p>
+                </li>
+                <li class="about__description-item">
+                  <img
+                    class="about__description-icon"
+                    src="/public/icons/uncompleted.svg"
+                    alt="Под заказ"
+                  />
+                  <p class="about__description-text">
+                    Собственный склад &ndash; более 30 000 наименований в
+                    наличии для оперативных отгрузок.
+                  </p>
+                </li>
+                <li class="about__description-item">
+                  <img
+                    class="about__description-icon"
+                    src="/public/icons/uncompleted.svg"
+                    alt="Под заказ"
+                  />
+                  <p class="about__description-text">
+                    Соблюдение сроков &ndash; приоритет компании: быстрая
+                    обработка заказов и доставка без задержек.
+                  </p>
+                </li>
+                <li class="about__description-item">
+                  <p class="about__description-text">
+                    Мы обеспечиваем бесперебойные поставки для ваших проектов.
+                    Оставьте заявку &ndash; и получите коммерческое предложение
+                    в кратчайшие сроки!
+                  </p>
+                </li>
+              </ul>
+              <a href="/About" class="details-link about__link">Подробнее</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
